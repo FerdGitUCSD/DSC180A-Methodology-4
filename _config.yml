@@ -1,0 +1,25 @@
+# Jekyll site configuration for DSC180A-Methodology-4
+title: "DSC180A — Methodology 4"
+description: ""
+baseurl: ""          # the subpath of your site, e.g. "/DSC180A-Methodology-4"
+url: "https://ferdgitucsd.github.io/DSC180A-Methodology-4/" # your site URL
+theme: cayman
+
+author:
+  name: "Fred Danese"
+  email: "fdanese@ucsd.edu"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
